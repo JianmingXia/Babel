@@ -1,2 +1,2 @@
-# Babel
-Babel test, es6 transform
+# 文档
+- https://babeljs.io/docs/setup/#installation
