@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "trans": "babel es6Transforms -d dist_web"
+    "trans": "babel es6Transforms -d dist_web",
+    "babel_core": "babel babel_core_demo -d dist_web"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.0"
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0"
   }
 }
